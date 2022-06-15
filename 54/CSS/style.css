@@ -1,0 +1,59 @@
+html {
+  background: #000 center-cover/size 80px no repeat
+}
+
+html {
+  background-image: url(/Images/Pizza-Background.jpg);
+}
+
+html {
+  text-align: center
+}
+
+body {
+  max-width: 100%;
+}
+
+html {
+  font-size: larger;
+  padding: 10px;
+  border: 2px solid black;
+  margin: 10 px;
+  color: orange;
+  font-family: Impact, Haettenschweiler, 'Arial  Bold', sans-serif;
+  font-kerning: 300;
+}
+
+header {
+  text-transform: uppercase;
+  text-shadow: 0cm
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  display;
+  none
+}
+
+a:visited {
+  color: whitesmoke;
+  list-style: none;
+}
+
+a:hover {
+  cursor: pointer;
+  color: yellow;
+  list-style: none;
+}
+
+a:focus {
+  color: red;
+}
+
+a:active {
+  color: white;
+}

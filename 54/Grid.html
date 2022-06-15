@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        body {
+            background-color: black;
+            width: 800px;
+            margin: auto;
+        }
+
+        .grid {
+            display: grid, inline-block;
+            grid-template-columns: 50% 50%;
+            grid-template-columns: (3, 3);
+            grid-auto-rows: minmax(100px, auto);
+            grid-column-gap: 1em;
+            grid-row-gap: 1em;
+        }
+
+        .grid>div {
+            background: pink;
+            padding: 1em;
+        }
+
+        .grid>div:nth-child(odd) {
+            background: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid"></div>
+    <div>
+        hi!
+    </div>
+    <div>
+        hello!
+    </div>
+    <div>
+        hi!
+    </div>
+    <div>
+        hello!
+    </div>
+    <div>
+        hi!
+    </div>
+    <div>
+        hello!
+    </div>
+    <div>
+        hi!
+    </div>
+    <div>
+        hello!
+    </div>
+    <div>
+        hi!
+    </div>
+    <div>
+        hello!
+    </div>
+    <div>
+        hi!
+    </div>
+    <div>
+        hello!
+    </div>
+</body>
+
+</html>
