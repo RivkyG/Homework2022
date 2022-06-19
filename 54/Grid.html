@@ -7,70 +7,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid Layout</title>
     <style>
-        body {
+        html {
             background-color: black;
-            width: 800px;
+        }
+
+        body {
+            background-color: white;
+            max-width: 1200px;
             margin: auto;
         }
 
-        .grid {
-            display: grid, inline-block;
-            grid-template-columns: 50% 50%;
-            grid-template-columns: (3, 3);
-            grid-auto-rows: minmax(100px, auto);
-            grid-column-gap: 1em;
-            grid-row-gap: 1em;
-        }
-
-        .grid>div {
-            background: pink;
-            padding: 1em;
-        }
-
-        .grid>div:nth-child(odd) {
-            background: orange;
+        .class {
+            border: 1px solid purple;
+            width: 300px;
+            height: 8em;
+            background-color: pink;
+            text-align: center;
+            padding-top: 3.5em;
+            padding-bottom: 3.5em;
+            box-sizing: border-box;
+            margin: 50 px;
+            display: inline-block
         }
     </style>
 </head>
 
 <body>
-    <div class="grid"></div>
-    <div>
-        hi!
-    </div>
-    <div>
-        hello!
-    </div>
-    <div>
-        hi!
-    </div>
-    <div>
-        hello!
-    </div>
-    <div>
-        hi!
-    </div>
-    <div>
-        hello!
-    </div>
-    <div>
-        hi!
-    </div>
-    <div>
-        hello!
-    </div>
-    <div>
-        hi!
-    </div>
-    <div>
-        hello!
-    </div>
-    <div>
-        hi!
-    </div>
-    <div>
-        hello!
-    </div>
+    <div class="class">hi</div>
+    <div class="class">hi</div>
+    <div class="class">hi</div>
+    <div class="class">hi</div>
+    <div class="class">hi</div>
+    <div class="class">hi</div>
+    <div class="class">hi</div>
+    <div class="class">hi</div>
+    <div class="class">hi</div>
+    <div class="class">hi</div>
+    <div class="class">hi</div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni repellendus quis alias ratione non inventore
+        officia voluptates, aut tempora distinctio!</p>
 </body>
 
 </html>
