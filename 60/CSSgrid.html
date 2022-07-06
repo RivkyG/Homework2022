@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSGrid</title>
+    <style>
+        body {
+            display: grid;
+            grid:
+                200px 50px 50px 250px 200px 50px 50px 250px "red1"
+                "blue1"
+                "yellow1"
+                "green1"
+                "red2"
+                "blue2"
+                "yellow2"
+                "green2"
+
+        }
+
+        red1 {
+            background-color: red;
+            grid-column-start: 2;
+            grid-column-end: 4;
+
+            grid-row-start: 1;
+        }
+
+        blue1 {
+            background-color: blue;
+            grid-column-start: 4;
+            grid-column-end: 5;
+
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+
+        yellow1 {
+            background-color: yellow;
+            grid-column: 2 / 4;
+            grid-row: 4 / 5;
+
+        }
+
+        green1 {
+            background-color: green;
+            grid-column: 1 / 2;
+            grid-row: 2 / 4;
+        }
+
+        red2 {
+            background-color: red;
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+        }
+
+        blue2 {
+            background-color: blue;
+            grid-column: 3 / 4;
+            grid-row: 2 / 3;
+        }
+
+        yellow2 {
+            background-color: yellow;
+            grid-column: 3 / 4;
+            grid-row: 3 / 4;
+
+        }
+
+        green2 {
+            background-color: green;
+            grid-column: 2 / 3;
+            grid-row: 3 / 4;
+        }
+    </style>
+</head>
+
+<body>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+</body>
+
+</html>
