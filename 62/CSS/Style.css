@@ -1,0 +1,345 @@
+html {
+    font-family: "helvetica", "arial", "sans-serif";
+}
+
+#navbar {
+    margin-left: 5%;
+    padding: 1em;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+
+}
+
+#navbar a {
+    margin-left: 5%;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+
+#navbar .sticky {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+#navbar .sticky+.content {
+    padding-top: 60px;
+}
+
+
+header {
+    background-color: lightgray;
+    margin-top: 75px;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 25px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+#Product {
+    margin-right: 5%;
+    margin-left: 5%;
+    max-width: auto;
+}
+
+#Product h3 {
+    text-align: justify;
+}
+
+#Product h4 {
+    text-align: center;
+}
+
+div.pics {
+    width: 300px;
+    box-sizing: border-box;
+    text-align: justify;
+    margin-right: 10%;
+    display: inline-block;
+}
+
+span.vertical-line {
+    display: inline-block;
+    border-left: 1px solid black;
+    margin: 0 5px;
+    height: 300px;
+}
+
+div.row {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0 4px;
+    width: 150px;
+
+}
+
+
+#SignUp {
+    background-color: lightgray;
+    border-radius: 15px;
+    display: center;
+    text-align: center;
+    padding: 25px;
+}
+
+label button {
+    box-shadow: 5px 5px black;
+
+}
+
+
+
+#financials {
+    margin-right: 5%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: .5em;
+    text-align: center;
+}
+
+td {
+    text-align: right;
+}
+
+tfoot td {
+    color: black;
+    font-weight: bold;
+    text-align: right;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+td:last-child {
+    color: red;
+}
+
+
+caption {
+    caption-side: top;
+}
+
+table tbody tr:hover {
+    background-color: lightblue;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+#AboutUs {
+    margin-right: 5%;
+    text-align: justify;
+}
+
+#footer p {
+    color: white;
+    margin-left: 5%;
+}
+
+#footer {
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 1em;
+    background-color: black;
+    width: 100%;
+    bottom: 0px;
+}
+
+
+
+
+@media screen and (min-width: 1000px) {
+
+    #navbar {
+        margin: 0;
+        padding: 1em;
+        background-color: black;
+        position: fixed;
+        width: 100%;
+        top: 0px;
+
+    }
+
+    #navbar a {
+        display: left;
+        margin: 5%;
+        color: white;
+        text-align: left;
+        text-decoration: none;
+    }
+
+    #navbar a:hover {
+        text-decoration: underline;
+        color: red;
+    }
+
+    .content {
+        padding: 16px;
+    }
+
+    #navbar .sticky {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+    }
+
+    #navbar .sticky+.content {
+        padding-top: 60px;
+    }
+
+
+    header {
+        background-color: lightgray;
+        margin-top: 75px;
+        margin-right: 5%;
+        margin-left: 5%;
+        text-align: center;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding: 25px;
+    }
+
+    h1 {
+        text-transform: uppercase;
+    }
+
+    #Product {
+        margin-right: 5%;
+        margin-left: 5%;
+        max-width: auto;
+        display: block;
+        text-align: center;
+    }
+
+    #Product h4 {
+        text-align: center;
+    }
+
+    #Product p {
+        text-align: justify;
+
+    }
+
+    span.vertical-line {
+        display: inline-block;
+        border-left: 1px solid black;
+        margin: 0 5px;
+        height: 300px;
+    }
+
+    div.row {
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 0 4px;
+        width: 150px;
+
+    }
+
+
+    #SignUp {
+        background-color: lightgray;
+        border-radius: 15px;
+        display: center;
+        text-align: center;
+        padding: 25px;
+    }
+
+    label button {
+        box-shadow: 5px 5px black;
+
+    }
+
+
+
+    #financials {
+        margin-right: 5%;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 80%;
+        margin: auto;
+    }
+
+    td,
+    th {
+        border: 1px solid black;
+        padding: .5em;
+        text-align: center;
+    }
+
+    td {
+        text-align: right;
+    }
+
+    tfoot td {
+        color: black;
+        font-weight: bold;
+        text-align: right;
+    }
+
+    td:first-child {
+        font-weight: bold;
+    }
+
+    td:last-child {
+        color: red;
+    }
+
+
+    caption {
+        caption-side: top;
+    }
+
+    table tbody tr:hover {
+        background-color: lightblue;
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: lightgray;
+    }
+
+    #AboutUs {
+        margin-right: 5%;
+        text-align: justify;
+    }
+
+    #footer {
+        margin-left: 0%;
+        margin-right: 0%;
+        padding: 1em;
+        background-color: black;
+        width: 100%;
+        bottom: 0px;
+    }
+
+    #footer p {
+        color: white;
+    }
+}
