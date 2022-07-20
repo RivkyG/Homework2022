@@ -1,0 +1,9 @@
+forgot to add the video
+no shadow showing on the buttons and labels
+no scrolling on table
+no media querys
+
+4 points at least
+
+Regarding making it in bootstrap:
+I know we had extra time this week. apparently I needed more. I'm still plugging away, but I uploaded it now regardless.
