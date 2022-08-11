@@ -1,0 +1,54 @@
+html {
+  background: #000 center-cover/size 80px no repeat
+}
+
+html {
+  background-image: url(/Images/Pizza-Background.jpg);
+}
+
+html {
+  text-align: center
+}
+
+body {
+  max-width: 100%;
+}
+
+html {
+  font-size: larger;
+  padding: 10px;
+  border: 2px solid black;
+  margin: 10 px;
+  color: orange;
+  font-family: 'Luckiest Guy', cursive;
+  font-kerning: 300;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+
+}
+
+ul {
+  display: block
+}
+
+a:visited {
+  color: whitesmoke;
+}
+
+a:hover {
+  cursor: pointer;
+  color: yellow;
+}
+
+a:focus {
+  color: red;
+}
+
+a:active {
+  color: white;
+}

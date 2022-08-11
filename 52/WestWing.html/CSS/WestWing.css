@@ -1,0 +1,20 @@
+html {background-color:lightskyblue;
+     background-position: bottom;}
+body{color:midnightblue}
+header{text-align: center;
+      list-style-type: none;}
+body{font-size: larger;}
+a:link{text-decoration: white;}
+a:visited{text-decoration:white;}
+a:hover{text-decoration: antiquewhite;}
+a:active{text-decoration: white;}
+html {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+p {font-size: larger, bolder;}
+html{text-transform:uppercase;}
+h1 {border-top: 5px white;
+    border-bottom: 5px white;
+    border-radius: none}
+html{padding-right: none;
+     margin:auto}
+     
+
