@@ -1,0 +1,5 @@
+some comments
+- the different layouts of products and the form were pretty important
+- footer isnt sticky
+- theres extra left margin pushing nav to right
+mark - 90
